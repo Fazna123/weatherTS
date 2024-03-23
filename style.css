@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    height:100vh;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+.location,.temperature{
+    height:10vh;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-sec{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-sec span{
+    font-size: 30px;
+}
+
+.degree-sec h2{
+    font-size: 40px;
+}
+
+
+
